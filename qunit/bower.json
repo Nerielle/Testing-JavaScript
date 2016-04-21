@@ -1,0 +1,12 @@
+{
+  "name": "bower",
+  "authors": [
+    "Nerielle "
+  ],
+  "description": "js testing project",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "qunit": "^1.23.1",
+  }
+}

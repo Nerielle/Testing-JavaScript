@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47b4a3dc-cbe8-4a7c-8009-ddcdcb804143" name="Default" comment="+test2 (adding markup into test.html instead of setup of module)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qunit/test2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qunit/test2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qunit/asyncTests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qunit/asyncTests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qunit/qunit.teamcity.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qunit/source1.js" afterPath="$PROJECT_DIR$/qunit/source1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qunit/tests.html" afterPath="$PROJECT_DIR$/qunit/test1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/qunit/tests.js" afterPath="$PROJECT_DIR$/qunit/test1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qunit/team-city-tests.html" afterPath="$PROJECT_DIR$/qunit/team-city-tests.html" />
     </list>
     <ignored path="Js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,53 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qunit/test2.html">
+      <file leaf-file-name="asyncTests.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qunit/asyncTests.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="238">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qunit/test2.js">
+      <file leaf-file-name="asyncTests.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qunit/asyncTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qunit/test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qunit/test1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="e#40#104#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="source1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qunit/source1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="408">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -103,9 +69,15 @@
         <option value="$PROJECT_DIR$/qunit/bower.json" />
         <option value="$PROJECT_DIR$/qunit/tests.html" />
         <option value="$PROJECT_DIR$/qunit/tests.js" />
-        <option value="$PROJECT_DIR$/qunit/test2.html" />
         <option value="$PROJECT_DIR$/qunit/source1.js" />
         <option value="$PROJECT_DIR$/qunit/test2.js" />
+        <option value="$PROJECT_DIR$/qunit/qunit.teamcity.js" />
+        <option value="$PROJECT_DIR$/qunit/test2.html" />
+        <option value="$PROJECT_DIR$/qunit/team-city-tests.js" />
+        <option value="$PROJECT_DIR$/qunit/team-city-tests.html" />
+        <option value="$PROJECT_DIR$/asyncTests.js" />
+        <option value="$PROJECT_DIR$/qunit/asyncTests.html" />
+        <option value="$PROJECT_DIR$/qunit/asyncTests.js" />
       </list>
     </option>
   </component>
@@ -115,10 +87,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="243" />
-    <option name="y" value="65" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -194,15 +166,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Projects\Js" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\Js\qunit" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\Js\qunit" />
+      <recent name="E:\Projects\Js" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test2.html">
-    <configuration default="false" name="tests.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="tests.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.asyncTests.html">
     <configuration default="false" name="tests.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js/tests.html">
       <method />
     </configuration>
@@ -213,6 +185,9 @@
       <method />
     </configuration>
     <configuration default="false" name="test2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test2.js" working-dir="$PROJECT_DIR$/qunit">
+      <method />
+    </configuration>
+    <configuration default="false" name="asyncTests.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js/qunit/asyncTests.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -269,19 +244,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.tests.js" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.tests.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test1.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test2.html" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.test2.js" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.tests.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test2.html" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.test2.js" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.asyncTests.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test2.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.test2.js" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test1.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.tests.html" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.tests.js" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.asyncTests.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test2.html" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.test2.js" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test1.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.tests.html" />
       </list>
     </recent_temporary>
   </component>
@@ -296,21 +271,30 @@
       <option name="presentableId" value="Default" />
       <updated>1461246432131</updated>
       <workItem from="1461246434440" duration="1690000" />
-      <workItem from="1461248194845" duration="4727000" />
+      <workItem from="1461248194845" duration="8361000" />
     </task>
+    <task id="LOCAL-00001" summary="+test2 (adding markup into test.html instead of setup of module)">
+      <created>1461252932906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1461252932906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6417000" />
+    <option name="totallyTimeSpent" value="10051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="243" y="65" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30972517" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -322,7 +306,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -373,22 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qunit/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qunit/test2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qunit/test1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -411,6 +378,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit/test2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit/qunit.teamcity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit/team-city-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit/team-city-tests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit/asyncTests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qunit/asyncTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding />
         </state>
       </provider>

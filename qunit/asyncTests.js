@@ -10,8 +10,7 @@ test('async timing test 1', function () {
 });
 
 test('async timing test 2', function () {
-    stop();
-    stop();
+    stop(2);
     setTimeout(function () {
 
         ok(true);

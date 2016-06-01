@@ -4,9 +4,15 @@ describe('FirstTestsClass', function () {
             toBeSeven: function () {
                 return {
                     compare: function (actual, expected) {
-                        return {
+                        var result = {
                             pass: actual === 7
                         };
+                        if (result.pass) {
+                            result.message = "It's ok";
+                        } else {
+                            result.message = "It's not 7";
+                        }
+                        return result;
                     }
                 };
             }

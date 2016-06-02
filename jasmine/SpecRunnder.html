@@ -11,6 +11,7 @@
     <script src="..\bower_components\jasmine\lib\jasmine-core\jasmine.js"></script>
     <script src="..\bower_components\jasmine\lib\jasmine-core\jasmine-html.js"></script>
     <script src="..\bower_components\jasmine\lib\jasmine-core\boot.js"></script>
+    <script src="..\CI\teamcity_reporter.js"></script>
     <script src="..\bower_components\jquery\dist\jquery.min.js"></script>
     <script src="..\bower_components\jasmine-jquery\lib\jasmine-jquery.js"></script>
 
@@ -21,6 +22,10 @@
     <script src="FirstSpec.js"></script>
     <script src="SkipTests.js"></script>
     <script src="CalculatorSpec.js"></script>
+    <script type="text/javascript">
+        jasmine.getEnv().addReporter(new jasmineReporters.TeamCityReporter());
+
+    </script>
 
 </head>
 

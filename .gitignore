@@ -1,3 +1,5 @@
 /qunit/run-qunit.js
 /qunit/phantomjs.exe
 /qunit/qunit.teamcity.js
+/.idea/workspace.xml
+/bower_components

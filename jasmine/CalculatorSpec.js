@@ -12,5 +12,18 @@ describe('Calculator', function () {
     it('should set result of addition', function () {
         calc.add(2, 5);
         expect($(outputId).text()).toBe('7');
-    })
+    });
+    describe("UI effects", function () {
+
+        it('should hide with effect', function (done) {
+
+            calc.hideResult();
+            setTimeout(function () {
+                expect($(outputId).css('display')).toBe('none');
+                done();
+            }, 1100)
+
+
+        });
+    });
 });

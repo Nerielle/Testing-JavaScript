@@ -7,4 +7,7 @@ var Calculator = function (elementId) {
     this.divide = function (a, b) {
         $(calc.elementId).text(a / b);
     };
+    this.hideResult = function () {
+        $(calc.elementId).fadeOut(1000);
+    };
 }

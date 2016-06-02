@@ -25,5 +25,4 @@ describe('FirstTestsClass', function () {
     it('should be seven', function () {
         expect(7).toBeSeven();
     });
-
 });

@@ -22,8 +22,25 @@ describe('Calculator', function () {
                 expect($(outputId).css('display')).toBe('none');
                 done();
             }, 1100)
+        });
 
 
+
+    });
+
+    describe('clock', function () {
+        beforeEach(function () {
+            jasmine.clock().install();
+        });
+        it('should hide with effect - jasmine clock', function () {
+
+            calc.pauseBeforeHiding();
+            jasmine.clock().tick(1500);
+            expect($(outputId).css('display')).toBe('none');
+        });
+        afterEach(function () {
+            jasmine.clock().uninstall();
         });
     });
+
 });

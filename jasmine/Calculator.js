@@ -10,4 +10,9 @@ var Calculator = function (elementId) {
     this.hideResult = function () {
         $(calc.elementId).fadeOut(1000);
     };
+    this.pauseBeforeHiding = function () {
+        setTimeout(function () {
+            $(calc.elementId).css('display', 'none');
+        }, 1500);
+    };
 }

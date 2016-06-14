@@ -15,11 +15,12 @@ describe('bdd style tests', function () {
     it('test 1', function () {
         expect(1).to.equal(1);
     });
-    describe.only('inner suite - exclusive run', function () {
+    describe('inner suite - exclusive run', function () {
         it.skip('test 2 : skipped', function () {
             expect(1).to.equal(1);
         });
         it('test 3', function () {
+            global = 3;
             expect(1).to.equal(1);
         })
     });

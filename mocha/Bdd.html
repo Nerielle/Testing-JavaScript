@@ -12,7 +12,10 @@
     <script src="..\bower_components\mocha\mocha.js"></script>
     <script src="..\bower_components\chai\chai.js"></script>
     <script>
-        mocha.setup('bdd');
+        mocha.setup({
+            ui: 'bdd',
+            ignoreLeaks: false
+        });
         expect = chai.expect;
 
     </script>

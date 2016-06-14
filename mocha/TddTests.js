@@ -15,7 +15,10 @@ suite('tdd style tests', function () {
     test('test 1', function () {
         expect(1).to.equal(1);
     });
-    test('test 2', function () {
-        expect(1).to.equal(1);
+    suite('inner suite', function () {
+        test('test 2', function () {
+            expect(1).to.equal(1);
+        });
     });
+
 })

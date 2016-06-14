@@ -3,6 +3,8 @@
   "dependencies": {
     "qunit": "1.23.1",
     "jasmine": "^2",
-    "jasmine-jquery": "^2.1.1"
+    "jasmine-jquery": "^2.1.1",
+    "jasmine.async": "^0.1.0",
+    "mocha": "^2.5.3"
   }
 }

@@ -1,4 +1,7 @@
 describe('bdd style tests', function () {
+    mocha.setup({
+        globals: ['globalIgnore']
+    });
     beforeEach(function () {
         console.log('beforeEach');
     });
@@ -13,6 +16,7 @@ describe('bdd style tests', function () {
     });
 
     it('test 1', function () {
+        globalIgnore = 7;
         expect(1).to.equal(1);
     });
     describe('inner suite - exclusive run', function () {

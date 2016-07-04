@@ -36,4 +36,27 @@ describe('Spies', function () {
 
         expect(sut.getNumber()).toEqual(10);
     });
+    it('alternate implementation', function () {
+        var spy = spyOn(sut, 'getNumber').and.callFake(function () {
+            return 10;
+        });
+
+        expect(sut.getNumber()).toEqual(10);
+    });
+    it('call through', function () {
+        var spy = spyOn(sut, 'getNumber').and.callThrough();
+
+        expect(sut.getNumber()).toEqual(5);
+    });
+    it('should throw an error', function () {
+        var spy = spyOn(sut, 'getNumber').and.throwError(new Error('error'));
+        var number;
+        try {
+            number = sut.getNumber();
+        } catch (ex) {
+            number = 500;
+        }
+        expect(number).toEqual(500);
+
+    });
 });

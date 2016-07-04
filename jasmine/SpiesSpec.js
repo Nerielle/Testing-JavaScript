@@ -71,6 +71,14 @@ describe('Spies', function () {
         expect(spy.doSomething).toHaveBeenCalled();
     });
 
+    it('Using utility methods', function () {
+        var spy = jasmine.createSpy('spy');
+        expect(jasmine.isSpy(spy)).toEqual(true);
+        spy();
+        spy.calls.reset()
+        expect(spy.calls.count()).toEqual(0);
+    })
+
     describe('verifying args', function () {
         it('spy should verify args', function () {
             var spy = jasmine.createSpy('spy');

@@ -1,17 +1,3 @@
-var Sut =
-    function Sut() {
-        var self = this;
-        this.callingCallback = function (cb) {
-            cb();
-        };
-        this.getNumber = function () {
-            return 5;
-        };
-        this.doSomething = function () {
-            console.log('doSomething');
-        };
-    };
-
 describe('Spies', function () {
     var sut;
     beforeEach(function () {
